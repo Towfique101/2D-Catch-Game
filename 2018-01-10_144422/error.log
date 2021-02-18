@@ -1,0 +1,36 @@
+Unity Player [version: Unity 4.6.1f1_d1db7a1b5196]
+
+Golden Egg.exe caused an Access Violation (0xc0000005)
+  in module Golden Egg.exe at 0033:eab786b3.
+
+Error occurred at 2018-01-10_144432.
+D:\unity practice\golden egg\Golden Egg.exe, run by Asus.
+14% memory in use.
+16266 MB physical memory [13830 MB free].
+18698 MB paging file [15273 MB free].
+134217728 MB user address space [134217171 MB free].
+Read from location 00000000 caused an access violation.
+
+Context:
+RDI:    0x04edfe00  RSI: 0x00000000  RAX:   0x04edfe00
+RBX:    0x0000000d  RCX: 0x04edfe00  RDX:   0x00068000
+RIP:    0xeab786b3  RBP: 0x00cff2e0  SegCs: 0x00000033
+EFlags: 0x00010206  RSP: 0x00cff190  SegSs: 0x0000002b
+R8:    0xeb3715f0  R9: 0x00000016  R10:   0x00000007
+R11:    0x04ee17b8  R12: 0x00cff8f0  R13:   0x04d84d48
+R14:    0x00cff980  R15: 0x00000000
+
+Bytes at CS:EIP:
+48 8b 16 48 8b 1f 48 8b ce ff 52 38 48 8b cf 48 Module 1
+C:\WINDOWS\SYSTEM32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_185422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+
+== [end of error.log] ==
